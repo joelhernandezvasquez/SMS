@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SMS DEMO</title>
     <style>
         body{
             display:flex;
@@ -13,8 +13,7 @@
             min-height: 100vh;
         }
 
-        @media(max-width:500px)
-        {
+        
             a{
                 display:inline-block;
                 background:rgb(37,109,161);
@@ -23,7 +22,13 @@
                 padding:10px 32px;
                 border-radius: 10px;
             }
-        }
+
+            @media(min-width:500px){
+                a{
+                    display:none;
+                }
+            }
+        
 
        
     </style>
